@@ -1,0 +1,66 @@
+@media (max-width: 960px){
+    .container{
+        display: none;
+    }
+    .cards{
+        display: inline;
+        justify-content: center;
+    }
+    .card{
+        width: 480px;
+        margin: 0px auto;
+    }
+    .card2{
+        width: 480px;
+        margin: 0px auto;
+    }
+    .aboutUs{
+        font-size: 18px;
+    }
+    .aboutUs img{
+        width: 100%;
+    }
+    .div-form{
+        width: 100%;
+    }
+    .form_img{
+        display: none;
+    }
+    .about div img{
+        width: 100%;
+    }
+    header{
+        justify-content: center;
+    }
+    .header_contact{
+        display: none;
+    }
+    nav{
+        padding: 20px 10px;
+    }
+}
+@media (max-width: 480px){
+    .card{
+        width: 480px;
+        margin: 0px auto;
+    }
+    .card2{
+        width: 360px;
+        display: block;
+        margin: 0px auto;
+    }
+    .div-form{
+        width: 100%;
+    }
+    .form_img{
+        display: none;
+    }
+    .about{
+        padding: 0px 10px;
+        margin-bottom: 30px;
+    }
+    .about div{
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

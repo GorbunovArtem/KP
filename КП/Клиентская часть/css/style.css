@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*header*/
+header{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.logo a{
+    color:#FF6B00;
+    text-decoration: none;
+    font-size: 28px;
+}
+/*Нав меню*/
+nav{
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25%;
+    background-color: #FF6B00;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*Стили слайдера start*/
+.slider{
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+}
+.slider-line{
+    height: 600px;
+    width: 2700px;
+    display: flex;
+    position: relative;
+    transition: all ease 1s;
+}
+.slider-line img{
+    width: 900px;
+    height: 600px;
+}
+.slider-but{
+    width: 128px;
+    height: 128px;
+    margin: auto 40px;
+    opacity: 0.6;
+    transition: all ease 1s;
+}
+.slider-but:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.container{
+    background-color: rgb(56, 57, 67);
+    margin: 0px auto;
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+}
+/*Текст слайдера*/
+.imgblock {
+    position: relative;
+    display: inline-block;
+}
+.imgblock div {
+    /*background: rgba(0,0,0,0.7); (полупрозрачность)*/
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 36px;
+    padding: 3px 5px;
+    width: 890px;
+    height: 130px;
+    text-align: center;
+    opacity: 0.8;
+}
+/*Стили слайдера end*/
+
+/*Информация о нас*/
+.about{
+    padding: 0px 80px;
+    margin-bottom: 200px;
+}
+.about div{
+    max-width: 1366px;
+    margin: 70px auto;
+    font-size: 20px;
+}
+.about div img{
+    margin: 20px 20px 0px 0px;
+    border-radius: 5px;
+}
+
+/*Услуги*/
+.service{
+    background-color: rgb(56, 57, 67);
+    padding-top: 60px;
+    color: white;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+}
+.service-text{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.cards{
+    max-width: 1366px;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.card{
+    width: 24%;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+.card-text{
+    margin: 15px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+/*Прайс услуг*/
+.services{
+    max-width: 1366px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0px auto;
+}
+.services-title{
+    padding: 15px 50px 15px 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 57, 67);
+    color: white;
+}
+.block-main{
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid black;
+    transition: all ease 0.5s;
+}
+.block-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px 15px 90px;
+    height: 50px;
+    align-items: center;
+}
+.block-child-first img{
+    width: 55px;
+    height: 45px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+}
+.block-child-first img:hover{
+    cursor: pointer;
+}
+.block-child-first{
+    display: flex;
+    padding: 15px 50px 15px 15px;
+    height: 50px;
+    align-items: center;
+}
+
+/*Наши мастера*/
+.card2-text{
+    position: absolute;
+    bottom: 5px;
+    background: #222;
+    opacity: 0.8;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    padding: 15px 0px;
+}
+.card2{
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    border-radius: 10px;
+    color: white;
+    margin: 35px;
+    text-align: center;
+    font-size: 20px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*Форма записи*/
+.form-div{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 60px;
+    justify-content: center;
+    height: 465px;
+}
+form {
+    width: 100%;
+    height: 465px;
+    background-color: rgb(56, 57, 67);
+    padding: 15px;
+    border-radius: 10px;
+}
+input {
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    width: 98%;
+    font-size: 18px;
+    padding: 5px;
+}
+textarea {
+    width: 98%;
+    font-size: 18px;
+    resize: none;
+    margin: 10px auto;
+    padding: 5px;
+}
+button {
+    background-color: #FF6B00;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #fd8c3b;
+    cursor: pointer;
+}
+.form_img{
+    border-radius: 10px;
+    background-image: url("../img/contact-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 495px;
+    margin: 30px 30px;
+}
+.div-form{
+    width: 40%;
+    margin: 30px 30px;
+    padding-right: 30px;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(56, 57, 67);
+    color: white;
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 0px 50px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.copyright{
+    width: 100%;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+/*aboutUs*/
+hr{
+    border-width: 3px;
+    border-radius: 5px;
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color: #222;
+}
+.aboutUs h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.aboutUs{
+    max-width: 1366px;
+    margin: 70px auto;
+    font-size: 24px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+.aboutUs img{
+    margin: 5px 20px 0px 0px;
+    border-radius: 5px;
+}
